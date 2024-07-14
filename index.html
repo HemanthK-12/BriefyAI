@@ -13,14 +13,13 @@
     <p> Simply paste your text into the text area below and click the "Submit" button. </p>
     <div class="container">
       <div class="text-box">
-        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
-        <button id="submit-button" class="submit-button" >Summarize</button>
+        <textarea id="text_to_summarize" placeholder="Paste in some text to summarize."></textarea>
+        <button id="submit-button" onclick="Api()">Summarize</button>
       </div>
       <div class="text-box"> 
       <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
       </div>
     </div>
-    <script src="script.js"></script><!--important for this to be at the end as it'llallow 
-                            the others to load>
+    <script src="script.js"></script><!--important for this to be at the end as it'll allow the others to load>
   </body>
 </html>
